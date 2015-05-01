@@ -1,0 +1,21 @@
+{
+  "name": "tiler",
+  "version": "0.1.0",
+  "description": "Plugable dashboard framework",
+  "keywords": [
+    "dashboard",
+    "information",
+    "radiator",
+    "react"
+  ],
+  "license": "MIT",
+  "author": {
+    "name": "Simon Dean",
+    "email": "simon@simondean.org",
+    "url": "http://www.simondean.org"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-react": "^3.0.1"
+  }
+}
