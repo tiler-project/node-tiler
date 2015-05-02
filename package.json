@@ -23,6 +23,10 @@
   "scripts": {
     "test": "gulp build"
   },
+  "dependencies": {
+    "react-grid-layout": "^0.7.1",
+    "sockjs-client": "^1.0.0-beta.12"
+  },
   "devDependencies": {
     "del": "^1.1.1",
     "gulp": "^3.8.11",
