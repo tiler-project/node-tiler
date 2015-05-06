@@ -6,7 +6,8 @@
     "dashboard",
     "information",
     "radiator",
-    "react"
+    "react",
+    "vert.x"
   ],
   "homepage": "https://github.com/tiler-project/node-tiler",
   "license": "MIT",

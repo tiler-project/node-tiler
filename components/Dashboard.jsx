@@ -1,5 +1,5 @@
 var React = require('react/addons');
-var ResponsiveReactGridLayout = require('react-grid-layout').Responsive;
+var ResponsiveGridLayout = require('react-grid-layout').Responsive;
 var SockJS = require('sockjs-client');
 
 module.exports = React.createClass({
@@ -80,12 +80,12 @@ module.exports = React.createClass({
     }, this);
 
     return (
-      <ResponsiveReactGridLayout
+      <ResponsiveGridLayout
         breakpoints={this.props.breakpoints}
         cols={this.props.cols}
         rowHeight={this.props.rowHeight}>
         {newChildren}
-      </ResponsiveReactGridLayout>
+      </ResponsiveGridLayout>
     );
   }
 });
