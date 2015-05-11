@@ -3,6 +3,9 @@
 Here are the steps to follow when making a release.
 
 * Update `HISTORY.md`
+* Bump the version number in `package.json`, following http://semver.org/
+* If bumping only the patch part of the version, run
+  * `$ gulp bump`
 * Add new contributors to `package.json`, if any
 * Commit those changes as "Release 0.1.2"
   * `$ git add package.json`

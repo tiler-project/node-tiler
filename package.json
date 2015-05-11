@@ -25,6 +25,7 @@
     "test": "gulp build"
   },
   "dependencies": {
+    "backo": "^1.1.0",
     "react-grid-layout": "^0.7.1",
     "sockjs-client": "^1.0.0-beta.12"
   },
