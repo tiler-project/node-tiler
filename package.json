@@ -26,7 +26,7 @@
   },
   "dependencies": {
     "backo": "^1.1.0",
-    "react-grid-layout": "^0.9.1",
+    "react-grid-layout": "^0.8.3",
     "sockjs-client": "^1.0.0-beta.12"
   },
   "devDependencies": {
